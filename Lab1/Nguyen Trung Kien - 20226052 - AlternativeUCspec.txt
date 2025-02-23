@@ -1,0 +1,12 @@
+﻿Nguyen Trung Kien - 20226052
+
+
+3a. Insufficient products
+In the step 2 that Software checks product availability, if the software determines that the quantity of chosen products in cart is not enough, the software displays  message error “Insufficient products” and asks customers to update their cart and use case resumes at software displays delivery from step 3 of basic flow.
+11a.Invalid credit card
+In the step 10 that Customer performs the payment transaction with VNPay, if the software determines that the credit which customer provides in the form is not valid, the software displays  message error “Invalid credit card” and asks customers to retry another valid credit card
+and the use case resumes at step 11 of basic flow.
+11b.Insufficient balance
+In the step 10 that Customer performs the payment transaction with VNPay, if the software determines that the balance in the customer’s credit card is not enough to complete the transaction, the software displays  message error “Insufficient balance” and asks customers to retry another payment method and the use case resumes at step 11 of basic flow.
+5a.Rush delivery process
+In the step 4 that Customer provides and submit delivery info, if customer wants to choose the rush delivery method, the software displays options for rush delivery and asks customers to input info and the use case resumes at step 3 of basic flow.
